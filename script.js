@@ -3,8 +3,8 @@ const count = document.getElementById('count');
 const sub = document.getElementById('sub');
 const plus = document.getElementById('plus');
 
-/*Set up an addEventListener method for the +/- buttons when clicked on will increment/decrement 
-the number value from the p element identified as count and call the function to change color*/
+/*Set up an addEventListener method for the +/- elements when clicked on will increment/decrement 
+the number value of the count property by 1 and call the function to change color*/
 plus.addEventListener('click', () => {
   count.innerHTML++;
   applyColor()
